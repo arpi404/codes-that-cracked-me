@@ -1,0 +1,111 @@
+
+.dark{
+    background-color: black;
+    color: white;
+}
+.white{
+     background-color: rgb(254, 254, 254);
+    color: rgb(0, 0, 0);
+}
+.border{
+    border-color: blue;
+}
+body
+{
+    text-align: center;
+}
+.container{
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color:#343a40;
+    border: 10px #212529 solid;
+    border-radius: 10px;
+
+}
+.game{
+    height: 63vmin;
+    width: 63vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color:#495057;
+    border-radius: 7px;
+
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    border: 3px #f8f9fa solid;
+    border-radius: 6px;
+    font-size:40px;
+    background-color:#6c757d;
+    color: black;
+
+}
+body.white .box {
+    border-color: #177e89;
+    background-color:#ecf39e;
+}
+body.dark .box{
+    border-color: black;
+    background-color: #b8d0eb;
+
+}
+body.white .container {
+    border-color: #003249;
+    background-color: #007ea7;
+}
+body.dark .container{
+    border-color: #809bce;
+    background-color:#d6eadf ;
+}
+body.white .game{
+    background-color:#b8e0d2 ;
+}
+body.dark .game{
+    background-color:#80ced7 ;
+}
+.hide{
+    display:none;
+}
+
+.x-color {
+    color: #ffffff; /* Bright Red for Player X */
+}
+
+.o-color {
+    color: #000000; /* Electric Blue for Bot / Player O */
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+#game-mode-btn {
+    
+    border: 2px solid black;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#mode{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#reset{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+}
