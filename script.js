@@ -11,7 +11,6 @@ let resetBtn = document.querySelector("#reset");
 let vsBot = false; // Tracks if we are playing against the computer
 let turnx = true;  // True = X (Player 1), False = O (Player 2 or Bot)
 let isGameOver = false;
-
 let wcondition = [
     [0,1,2], [3,4,5], [6,7,8], // Rows
     [0,3,6], [1,4,7], [2,5,8], // Columns
