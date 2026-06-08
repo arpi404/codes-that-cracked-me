@@ -150,7 +150,7 @@ modebtn.addEventListener("click", () => {
         currMode = "dark";
         body.classList.add("dark");
         body.classList.remove("white");
-        modebtn.
+    
     } else if (currMode === "dark") {
         currMode = "light";
         body.classList.add("white");
