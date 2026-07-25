@@ -13,6 +13,8 @@
 body
 {
     text-align: center;
+    background-image: url(https://i.pinimg.com/1200x/35/21/24/352124e000d767a27d441e65a7fe7a35.jpg);
+    background-size: cover;
 }
 .container{
     margin: 10px;
